@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cursor (local IDE rules)
+.cursor/rules/
+
+# Docs (do not commit)
+docs/
+
+# Local report exports (do not commit)
+/frontend-*.json
+/frontend-*.xlsx
+/local-dev-change-log.json
+
+# Backend DB reference dumps (do not commit)
+backend-reference/
+
+# One-off local tooling scripts (do not commit/deploy)
+scripts/
+
+# Local Python venv under scripts/ (e.g. one-off tooling); do not commit
+scripts/.venv/

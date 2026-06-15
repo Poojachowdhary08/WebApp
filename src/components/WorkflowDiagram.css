@@ -1,0 +1,183 @@
+.custom-node-box {
+  position: relative;
+  background: #fffdf6;
+  color: #111827;
+  width: 482px;
+  min-height: 232px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f5e8c6;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  font-size: 12px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+/* main content inside the node */
+.node-card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.node-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.node-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+
+.node-subtitle {
+  margin-top: 2px;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+/* STATUS PILL */
+.node-status-pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 500;
+  border: 1px solid #fed7aa;
+  background: #fff7e6;
+  color: #b45309;
+  text-transform: capitalize;
+}
+
+/* tweak colors for different statuses if you want */
+.status-completed {
+  background: #e8f5e9;
+  border-color: #bbf7d0;
+  color: #15803d;
+}
+
+.status-in-progress {
+  background: #e3f2fd;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+}
+
+.status-pending {
+  background: #fff7e6;
+  border-color: #fed7aa;
+  color: #b45309;
+}
+
+.status-on-hold {
+  background: #fffbeb;
+  border-color: #facc15;
+  color: #92400e;
+}
+
+.status-blocked {
+  background: #ffebee;
+  border-color: #fecaca;
+  color: #b91c1c;
+}
+
+/* PROGRESS AREA */
+.node-progress-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #4b5563;
+  margin-top: 4px;
+}
+
+.node-days-left {
+  font-weight: 500;
+}
+
+.node-progress-bar {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  overflow: hidden;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.node-progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: #2563eb;
+  transition: width 0.25s ease-out;
+}
+
+/* REMARKS */
+.node-remarks {
+  font-size: 11px;
+  margin-top: 6px;
+  color: #6b7280;
+}
+
+/* DATES ROW */
+.node-dates-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.node-date-block {
+  flex: 1;
+  cursor: pointer;
+}
+
+.node-date-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #9ca3af;
+}
+
+.node-date-value {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* existing add-button styling */
+.custom-node-add {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 4px;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.15);
+  z-index: 5;
+}
+
+/* comment bubble tail as before */
+.custom-node-box.comment::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e1f5fe;
+}
+
+/* keep your print styles */
+.react-flow__viewport * {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}

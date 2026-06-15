@@ -1,0 +1,16 @@
+[2026-05-05 09:29:41] [INFO] ✅ Temporal env vars loaded from backend/temporal/connect_temporal.py
+[2026-05-05 09:29:41] [INFO] 🌐 ENDPOINT: ap-southeast-1.aws.api.temporal.io:7233
+[2026-05-05 09:29:41] [INFO] 📛 NAMESPACE: quickstart-avenue-connect.jr2xr
+[2026-05-05 09:29:41] [INFO] 🔑 API KEY: Present ✅
+[2026-05-05 09:29:48] [INFO] ✅ Temporal env vars loaded from backend/temporal/connect_temporal.py
+[2026-05-05 09:29:48] [INFO] 🌐 ENDPOINT: ap-southeast-1.aws.api.temporal.io:7233
+[2026-05-05 09:29:48] [INFO] 📛 NAMESPACE: quickstart-avenue-connect.jr2xr
+[2026-05-05 09:29:48] [INFO] 🔑 API KEY: Present ✅
+[2026-05-05 09:30:07] [INFO] ✅ Temporal env vars loaded from backend/temporal/connect_temporal.py
+[2026-05-05 09:30:07] [INFO] 🌐 ENDPOINT: ap-southeast-1.aws.api.temporal.io:7233
+[2026-05-05 09:30:07] [INFO] 📛 NAMESPACE: quickstart-avenue-connect.jr2xr
+[2026-05-05 09:30:07] [INFO] 🔑 API KEY: Present ✅
+[2026-05-05 09:30:14] [INFO] ✅ Temporal env vars loaded from backend/temporal/connect_temporal.py
+[2026-05-05 09:30:14] [INFO] 🌐 ENDPOINT: ap-southeast-1.aws.api.temporal.io:7233
+[2026-05-05 09:30:14] [INFO] 📛 NAMESPACE: quickstart-avenue-connect.jr2xr
+[2026-05-05 09:30:14] [INFO] 🔑 API KEY: Present ✅
